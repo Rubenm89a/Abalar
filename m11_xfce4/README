@@ -1,0 +1,26 @@
+# == Class: xfce48
+#
+# Instalación, parametrización del entorno de ventanas XFCE4.8 así como las configuraciones específicas para su congelación
+#
+# == Tarea Redmine: #11382, #11826 y #11834
+#
+# Copyright (C) 2014, Xunta de Galicia for Consolidación Software Abalar
+# Project <software.libre@edu.xunta.es>
+# Author: Roi García Megías <roi.garcia.megias@everis.com>
+
+# Modified: Alfonso Bilbao Vélez <alfonso.ernesto.bilbao.velez.ocampo@everis.com>
+# Task: #464973
+Reparametrizacion  de elementos.
+Reorganizacion del fichero en la carpeta files.
+Corrección plugin xkb y cambio de las banderitas por las letras.
+Retiradas definiciones sin uso.
+
+# Modified: Guilherme Brea Farinha <guillermo.brea.farina.sa@nttdata.com>
+# Tarefa :#559661
+
+Retirada de plugin xkb por ibus
+Adpatado para a execuçom do script de idiomas
+
+# Modified: Rubén Rojo Vázquez  <ruben.rojovazquez.sa@everis.nttdata.com> 
+# Fondos de pantalla 2023. Eliminacion del condicional para edixgal/no_edixgal, fondos 1080p y verticales para equipos con autorotado.
+# Task: #582345 #791420

@@ -1,0 +1,24 @@
+[general]
+embed-preedit-text=true
+engines-order=<%= scope.lookupvar('m11_xfce4::params::idiomas_ibus')%>
+preload-engines=<%= scope.lookupvar('m11_xfce4::params::idiomas_ibus')%>
+use-system-keyboard-layout=false
+version='1.5.23'
+
+[general/hotkey]
+triggers=['<Super>space']
+
+[panel]
+lookup-table-orientation=1
+show=0
+show-icon-on-systray=true
+use-custom-font=false
+xkb-icon-rgba='#000000'
+
+[panel/emoji]
+font='Monospace 16'
+has-partial-match=false
+hotkey=['<Control><Shift>e']
+lang='gl'
+partial-match-condition=0
+unicode-hotkey=['<Control><Shift>u']

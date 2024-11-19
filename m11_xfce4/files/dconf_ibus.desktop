@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Restaurar config de ibus
+Comment=Restaurar configuracións de ibus para usuario en XFCE.
+Exec=bash -c "/usr/bin/dconf load /desktop/ibus/ < /home/usuario/.config/dconf/dump.dconf" 
+#Exec=touch /home/usuario/dump.txt
+Icon=
+NoDisplay=true
+Terminal=false
+Type=Application
+StartupNotify=false
+OnlyShowIn=XFCE;

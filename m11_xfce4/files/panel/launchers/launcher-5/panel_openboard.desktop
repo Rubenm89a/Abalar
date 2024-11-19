@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.5.5
+Encoding=UTF-8
+Name=OpenBoard
+Comment=Openboard, unha aplicación de pizarra dixital interactiva.
+Exec=openboard %f
+Icon=/opt/openboard/OpenBoard.png
+StartupNotify=true
+Terminal=false
+Type=Application
+MimeType=application/ubz
+Categories=Pizarra Dixital;
+X-XFCE-Source=file:///usr/share/applications/openboard.desktop

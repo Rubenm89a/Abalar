@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Files
+Name[gl]=Ficheiros
+Comment=Access and organize files
+Comment[gl]=Acceda e organice ficheiros
+Exec=nautilus %U
+Icon=system-file-manager
+Terminal=false
+Type=Application
+StartupNotify=true
+OnlyShowIn=GNOME;Unity;XFCE;
+Categories=Utility;
+MimeType=inode/directory;application/x-gnome-saved-search;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=nautilus
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.4.2
+X-XFCE-Source=file:///usr/share/applications/nautilus.desktop

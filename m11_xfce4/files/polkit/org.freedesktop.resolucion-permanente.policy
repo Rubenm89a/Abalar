@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD Policykit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+        <action id="resolucion-permanente.policy">
+                <description xml:lang="gl">Permitir aos usuarios modificar o arquivo /usr/share/X11/xorg.conf.d/10-monitor.conf</description>
+                <defaults>
+                        <allow_any>yes</allow_any>
+                        <allow_inactive>yes</allow_inactive>
+                        <allow_active>yes</allow_active>
+                </defaults>
+                <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/resolucion-permanente.sh</annotate>
+        </action>
+</policyconfig>

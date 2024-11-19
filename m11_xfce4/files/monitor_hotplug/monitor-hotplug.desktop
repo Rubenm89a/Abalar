@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Monitor hotplug Autostart
+Exec=/usr/local/bin/monitor-hotplug.sh
+Type=Application
+Terminal=false
